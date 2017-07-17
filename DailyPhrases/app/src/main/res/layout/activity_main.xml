@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_light"
+    tools:context="zimmermann.larissa.dailyphrases.MainActivity">
+
+    <Button
+        android:id="@+id/buttonNewPhraseGenerator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="22dp"
+        android:text="@string/generatorButton"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/phrasesId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/buttonNewPhraseGenerator"
+        android:layout_alignStart="@+id/buttonNewPhraseGenerator"
+        android:layout_below="@+id/buttonNewPhraseGenerator"
+        android:layout_marginTop="17dp"
+        android:text="TextView"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/textPhraseSize" />
+
+</RelativeLayout>

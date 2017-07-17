@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Daily Phrases</string>
+    <string name="generatorButton">Generate New Phrase</string>
+</resources>
